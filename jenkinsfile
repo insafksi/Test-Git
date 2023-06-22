@@ -1,0 +1,23 @@
+pipeline {
+agentany
+stages {
+stage('Build') {
+steps {
+echo "Etape de build"
+sh 'python --version'
+} 
+                             }
+stage('Test') {
+steps {
+echo "Etapede test"
+} 
+}
+stage('Deploy') {
+steps {  
+echo "Etape de déploiement"
+                           }
+                              } 
+
+               }
+          }
+
