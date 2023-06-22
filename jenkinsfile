@@ -15,7 +15,7 @@ echo "Etapede test"
 stage('Deploy') {
 steps {  
 echo "Etape de déploiement"
-                           }
+echo "Bonjour"                           }
                               } 
 
                }
